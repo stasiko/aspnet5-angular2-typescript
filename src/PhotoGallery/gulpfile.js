@@ -23,6 +23,10 @@ var paths = {
 
 var tsProject = ts.createProject('./wwwroot/tsconfig.json');
 
+gulp.task('default', function () {
+    // place code for your default task here
+});
+
 gulp.task('setup-vendors', function (done) {
     gulp.src([
       'node_modules/angular2/bundles/js',
